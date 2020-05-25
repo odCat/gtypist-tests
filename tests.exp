@@ -1,0 +1,9 @@
+#!/usr/bin/expect
+
+spawn gtypist example.typ
+
+send "Two of the fairest stars in all the heaven,\n"
+send "Having some business, do entreat her eyes\n"
+send "e"
+
+interact
